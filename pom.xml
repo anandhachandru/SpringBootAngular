@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ck</groupId>
-	<artifactId>playwithspring</artifactId>
+	<artifactId>alpha</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>playwithspring</name>
+	<name>alpha</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -42,11 +42,11 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency> -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
+		</dependency> -->
 	</dependencies>
 
 	<build>
