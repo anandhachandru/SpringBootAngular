@@ -31,7 +31,7 @@ public class LoginController {
 	@RequestMapping(value = "/welcome", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	@ResponseBody
 	public JsonResponse showPage() {
-		System.out.println("-----------Alpha----------");
+		System.out.println("-----------Alpha---ss-------");
 		return new JsonResponse("Welcome Alpha", MessageTypeEnum.SUCCESS.getValue(), "Success", "Service Running Successfully", true);
 	}
 	
